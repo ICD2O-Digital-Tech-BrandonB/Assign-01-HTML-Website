@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+  <!--States The Language Used-->
+<html lang="en-ca">
+  <head>
+        <!--Meta Code For General Description-->
+      <meta charset="utf-8">
+      <meta name="description" content="Assignment 01, Second Webpage">
+      <meta name="keyboard" content="immaculata, icd2o">
+      <meta name="author" content="BrandonBCode">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--Allows the Use of Favicons-->
+      <link rel="apple-touch-icon" sizes="180x180" href="./favicongi/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicongi/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./favicongi/favicon-16x16.png">
+      <link rel="manifest" href="./favicongi/site.webmanifest">
+
+      <!--Google's MDL Crucial Code-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-red.min.css" />
+
+          <!--Source Link To Recognize CSS File-->
+      <link rel="stylesheet" href="./css/style2.css">
+        <!--Title for Browser Tab-->
+      <title>The Draft</title>
+  </head>
+  <body>
+  <!--Google's MDL Crucial Code-->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> 
+    <!--Allows you to use an image on HTML-->
+    <img src="./images/nba.png" alt="nba" class="center" >
+    <!--Header for my website-->
+    <h1>NBA Draft Night</h1>
+    <!--Paragraph describing more about Giannis-->
+    <p>
+        It was a tough night for Giannis because it was his dream to play in the NBA. This was his only opportunity to make it happen.
+       Him and his family were seated in the stands, Adam Silver calling the drafts, people went by. 
+    </p>
+    <!--Break to go to the next line.-->
+    <br>
+    <!--Paragraph text-->
+    <p>Adam Silver states....</p>
+    <!-- Icon List -->
+<style>
+.demo-list-icon {
+  width: 300px;
+}
+</style>
+
+    <ul class="demo-list-icon mdl-list">
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Anthony Bennett
+    </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Victor Oladipo
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Otto Porter Jr.
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Cody Zeller
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Alex Len
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Nerlens Noel
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Ben McLemore
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Kentavious Caldwell-Pope
+      </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">person</i>
+        Trey Burke
+      </span>
+      </li>
+    </ul>
+    <p>When do you think that Giannis will be selected in the Draft?</p>
+    <!-- Numeric Textfield with Floating Label -->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+          <label class="mdl-textfield__label" for="sample4">Number...</label>
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
+      </form>
+    <!--Paragraph describing more about Giannis-->
+    <p>Giannis and his family were getting anxious but then in the 15th pick of the First Round they selected!</p>
+    <!--This is my "Whats Happening" button-->
+    <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      What Happens?
+    </button>
+    <!--Allows me to use the draft picture of Giannis in HTML-->
+    <img src="./images/giannis_draft.jpg" alt="GiannisDraft" class="center2" >
+    <!--This is my "Next Page" button that takes you to the next website-->
+    <button onclick="window.location.href='thirdpage.html'">Next Page!</button>
+    </body>
+    <!--This is my "Whats Happening" button, more specifically the trigger-->
+        <script>
+            function myButtonClicked() {
+                alert ("The Milwaukee Bucks Select: GIANNIS ANTETOKOUNMPO!")
+            }
+            </script>
+  </html>
