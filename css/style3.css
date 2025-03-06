@@ -1,0 +1,42 @@
+/* Created by: Brandon Brandhuber
+* Created on: February 19th, 2025
+* This file contains the CSS for index.html
+*/
+
+body {
+    background-color: rgb(21, 71, 11);
+}
+
+h1 {
+
+    background-color: rgb(204, 164, 90);
+    color: hsl(0, 89%, 49%);
+    padding: 40px;
+    text-align: center;
+}
+
+h3 {
+   background-color: rgb(204, 164, 90);
+}
+
+p {
+    background-color: rgb(204, 164, 90);
+}
+
+ul {
+    background-color: rgb(204, 164, 90);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
